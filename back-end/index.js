@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 
 import userRoute from './route/user.route.js'
 // import cors from 'cors'
-const app = express();
+const app = express({ origin: true });
 app.use(cors({ origin: true }));
 app.use(express.json());
 // Router.use();
