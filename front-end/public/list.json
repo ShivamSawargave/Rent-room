@@ -1,0 +1,72 @@
+[
+    {
+        "id":1,
+        "name":"Story book",
+        "title":"Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"free",
+        "image":"https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1717814438~exp=1717818038~hmac=68b6df5afb93f62005189ef494d23cc6dd5eb2c227881c0e21b6677cd5234106&w=740"
+    },
+    {
+        "id":2,
+        "name":"Comedy book",
+        "title":"Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price":45,
+        "category":"Entertainment",
+        "image":"https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1717814438~exp=1717818038~hmac=68b6df5afb93f62005189ef494d23cc6dd5eb2c227881c0e21b6677cd5234106&w=740"
+    }, {
+        "id":3,
+        "name":"Sports book",
+        "title":"Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price":50,
+        "category":"sports",
+        "image":"https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1717814438~exp=1717818038~hmac=68b6df5afb93f62005189ef494d23cc6dd5eb2c227881c0e21b6677cd5234106&w=740"
+    },
+    {
+        "id":3,
+        "name":"Food book",
+        "title":"Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price":30,
+        "category":"Food",
+        "image":"https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1717814438~exp=1717818038~hmac=68b6df5afb93f62005189ef494d23cc6dd5eb2c227881c0e21b6677cd5234106&w=740"
+    },
+    {
+        "id":4,
+        "name":"Music book",
+        "title":"Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price":100,
+        "category":"song",
+        "image":"https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1717814438~exp=1717818038~hmac=68b6df5afb93f62005189ef494d23cc6dd5eb2c227881c0e21b6677cd5234106&w=740"
+    }, {
+        "id":5,
+        "name":"Story book",
+        "title":"Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"free",
+        "image":"https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1717814438~exp=1717818038~hmac=68b6df5afb93f62005189ef494d23cc6dd5eb2c227881c0e21b6677cd5234106&w=740"
+    },
+    {
+        "id":6,
+        "name":"Story book",
+        "title":"Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"free",
+        "image":"https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1717814438~exp=1717818038~hmac=68b6df5afb93f62005189ef494d23cc6dd5eb2c227881c0e21b6677cd5234106&w=740"
+    },
+    {
+        "id":7,
+        "name":"Story book",
+        "title":"Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"free",
+        "image":"https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1717814438~exp=1717818038~hmac=68b6df5afb93f62005189ef494d23cc6dd5eb2c227881c0e21b6677cd5234106&w=740"
+    },
+    {
+        "id":8,
+        "name":"Story book",
+        "title":"Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"free",
+        "image":"https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1717814438~exp=1717818038~hmac=68b6df5afb93f62005189ef494d23cc6dd5eb2c227881c0e21b6677cd5234106&w=740"
+    }
+]
