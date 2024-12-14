@@ -1,8 +1,8 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import toast from 'react-hot-toast';
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL
 
 function Login() {
   const {
@@ -16,7 +16,7 @@ function Login() {
       email: data.email,
       password: data.password
     }
-    await axios.post("http://localhost:4001/user/login", userInfo).then((res) => {
+    await axios.post(`${BACKEND_URL}/user/login`, userInfo).then((res) => {
       console.log(res.data)
       if (res.data) {
         toast.success('Login Successfully');

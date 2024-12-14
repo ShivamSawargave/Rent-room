@@ -1,7 +1,7 @@
-import React from 'react';
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import toast from 'react-hot-toast';
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL
 
 function Confirm() {
   const {
@@ -13,32 +13,33 @@ function Confirm() {
   const onSubmit = async (data) => {
     const userInfo = {
 
-    fullname:data.fullname,
-    mobilenumber:data.mobilenumber,
+      fullname: data.fullname,
+      mobilenumber: data.mobilenumber,
       email: data.email,
       password: data.password,
-      roomaddress:data.roomaddress
-  }
-     await axios.post("http://localhost:4001/customer/confirm", userInfo).then((res) => {
-         console.log(res.data)
-       if (res.data) {
-         toast.success('Confirm Successfully');
-         document.getElementById("confirmation").close();
-         setTimeout(()=>{
+      roomaddress: data.roomaddress
+    }
+
+    await axios.post(`${BACKEND_URL}/customer/confirm`, userInfo).then((res) => {
+      console.log(res.data)
+      if (res.data) {
+        toast.success('Confirm Successfully');
+        document.getElementById("confirmation").close();
+        setTimeout(() => {
           window.location.reload();
-           localStorage.setItem("Users", JSON.stringify(res.data.customer));
-         },2000)
-        
-       }
-      
+          localStorage.setItem("Users", JSON.stringify(res.data.customer));
+        }, 2000)
+
+      }
+
     }).catch((err) => {
-       if (err.response) {
-         console.log(err);
+      if (err.response) {
+        console.log(err);
         toast.error("Error: " + err.response.data.message);
-         setTimeout(()=>{},3000)
-       }
-     })
-   }
+        setTimeout(() => { }, 3000)
+      }
+    })
+  }
 
 
   return (
@@ -83,8 +84,8 @@ function Confirm() {
             <br />
             {errors.password && <span className='text-sm text-red-500'>This field is required</span>}
           </div>
-           {/*name*/}
-           <div className='mt-4 space-y-2'>
+          {/*name*/}
+          <div className='mt-4 space-y-2'>
             <span>Room Address</span>
             <br />
             <input type="address" placeholder='Enter Room Address' className='w-80 px-3 py-1 border rounded-md outline-none' {...register("roomaddress", { required: true })} />
@@ -95,7 +96,7 @@ function Confirm() {
           <form id="con" onSubmit={handleSubmit(onSubmit)} method="dialog">
             <div className='flex justify-around mt-4'>
               <button className='bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200' >Confirm</button>
-              
+
             </div>
           </form>
         </div>

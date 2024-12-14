@@ -7,6 +7,8 @@ import Sawargave from "../components/Sawargave";
 import { Link } from "react-router-dom";
 import toast from "react-hot-toast";
 import { useForm } from "react-hook-form";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL
+
 function Banner() {
   const {
     register,
@@ -20,7 +22,7 @@ function Banner() {
       password: data.password,
     };
     await axios
-    .post("http://localhost:4001/user/login", userInfo)
+    .post(`${BACKEND_URL}/user/login`, userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {

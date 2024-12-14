@@ -1,6 +1,10 @@
-import React from 'react'
+import axios from "axios"
+import { useForm } from "react-hook-form"
+import toast from "react-hot-toast"
 
-function feedback() {
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL
+
+function Feedback() {
 
   const {
     register,
@@ -16,7 +20,7 @@ const onSubmit = async (data) => {
         Message: data.Message
 
     }
-    await axios.post("http://localhost:4001/contactus/contact", userInfo).then((res) => {
+    await axios.post(`${BACKEND_URL}/contactus/contact`, userInfo).then((res) => {
         console.log(res.data)
         if (res.data) {
             toast.success('Thanku for your valuable feedback');
@@ -93,4 +97,4 @@ const onSubmit = async (data) => {
   )
 }
 
-export default feedback
+export default Feedback

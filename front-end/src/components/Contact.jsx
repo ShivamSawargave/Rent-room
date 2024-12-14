@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import toast from 'react-hot-toast';
 import { useForm } from "react-hook-form";
 import axios from "axios";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL
 
 export default function Example() {
     const {
@@ -21,7 +22,7 @@ export default function Example() {
             Message: data.Message
 
         }
-        await axios.post("http://localhost:4001/contactus/contact", userInfo).then((res) => {
+        await axios.post(`${BACKEND_URL}/contactus/contact`, userInfo).then((res) => {
             console.log(res.data)
             if (res.data) {
                 toast.success('Contact you soon');

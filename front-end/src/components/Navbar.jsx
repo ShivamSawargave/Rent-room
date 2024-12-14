@@ -1,9 +1,8 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useState } from 'react';
 import Login from '../components/Login';
 import Logout from './Logout';
 import { useAuth } from '../context/AuthProvider';
-import Signup from '../components/Signup';
 
 function Navbar() {
     const [authUser, setAuthUser] = useAuth()
@@ -48,13 +47,13 @@ function Navbar() {
                         </div>
 
                         <a className="font-bold text-sm cursor-pointer flex justify-between" href='/'>
-                           <div><img src="logo.jpg" alt="" className='h-14 w-14 mt-1' /></div>
-                           <div className='ml-2'>
-                           <h2>SSS</h2>
-                            <h2>RENT</h2>
-                            <h2>ROOM</h2>
-                           </div>
-                           </a>
+                            <div><img src="logo.jpg" alt="" className='h-14 w-14 mt-1' /></div>
+                            <div className='ml-2'>
+                                <h2>SSS</h2>
+                                <h2>RENT</h2>
+                                <h2>ROOM</h2>
+                            </div>
+                        </a>
                     </div>
                     <div className="navbar-end space-x-3">
                         <div className="navbar-center hidden lg:flex">
@@ -62,7 +61,7 @@ function Navbar() {
                                 {navItems}
                             </ul>
                         </div>
-                        
+
                         {
                             authUser ? (<Logout />) : (
                                 <div className="">
