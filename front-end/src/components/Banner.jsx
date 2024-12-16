@@ -100,7 +100,7 @@ function Banner() {
                 <div id="slide3" className="carousel-item relative w-full">
                     <div className="hero min-h-screen"
                      style={{
-                      backgroundImage: "url(https://cdn.create.vista.com/api/media/small/270287408/stock-photo-cardboard-house-wooden-cubes-rent-lettering-table)",
+                      backgroundImage: "url(https://na.rdcpix.com/35280534/8ecb8b5c10a19ccbe1daba7bc38ec77cw-c307772xd-w640_h480_q80.jpg)",
                   }}>
                        
                         <div className="hero-overlay bg-opacity-10"></div>
@@ -117,7 +117,7 @@ function Banner() {
                     <div
                         className="hero max-h-screen"
                         style={{
-                            backgroundImage: "url()",
+                            backgroundImage: "url(https://plus.unsplash.com/premium_photo-1676823553207-758c7a66e9bb?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cm9vbSUyMGZvciUyMHJlbnR8ZW58MHx8MHx8fDA%3D)",
                         }}>
                         <div className="hero-overlay"></div>
                         <div className="hero-content text-neutral-content text-center">
@@ -134,7 +134,7 @@ function Banner() {
                     <div
                         className="hero min-h-screen"
                         style={{
-                            backgroundImage: "url(https://media.istockphoto.com/id/1299298243/video/modern-living-room-with-grey-couch-and-industrial-design-shelves.jpg?s=640x640&k=20&c=gQdgjpZcdYrqnJc1TG5itfczLK3nPvmT2ekxrxNAdvg=)",
+                            backgroundImage: "url(https://plus.unsplash.com/premium_photo-1724061885068-f10ceeb9f84c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cm9vbSUyMGZvciUyMHJlbnR8ZW58MHx8MHx8fDA%3D)",
                         }}>
                         <div className="hero-overlay bg-opacity-10"></div>
                         <div className="hero-content text-neutral-content text-center">
@@ -150,7 +150,7 @@ function Banner() {
                     <div
                         className="hero min-h-screen"
                         style={{
-                            backgroundImage: "url()",
+                            backgroundImage: "url(https://images.unsplash.com/photo-1647996179012-66b87eba3d17?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJvb20lMjBmb3IlMjByZW50fGVufDB8fDB8fHww)",
                         }}>
                         <div className="hero-overlay bg-opacity-10"></div>
                         <div className="hero-content text-neutral-content text-center">
